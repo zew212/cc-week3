@@ -1,0 +1,12 @@
+
+body, html {
+    background-color: rgb(214, 204, 209);
+}
+
+#poster {
+    color: aquamarine;
+    top: 50px;
+    left: 100px;
+    width: 300px;
+    height: 400px;
+}
