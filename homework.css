@@ -1,12 +1,90 @@
 
 body, html {
     background-color: rgb(214, 204, 209);
+
+}
+
+#ref {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 150px;
+    z-index: 1;
+    border: 6px solid black;
+}
+
+#letter {
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    z-index: 0;
+    width: 80px;
+    height: 110px;
+    background-color: rgb(245, 240, 237);
+    box-shadow: 1px 5px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+#photobooth1 {
+    position: absolute;
+    top: 340px;
+    left: 250px;
+    z-index: 0;
+    width: 30px;
+    height: 90px;
+    background-color: rgb(11, 11, 11);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#photobooth2 {
+    position: absolute;
+    top: 340px;
+    left: 300px;
+    z-index: 0;
+    width: 30px;
+    height: 90px;
+    background-color: rgb(11, 11, 11);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#smallpicture {
+    position: absolute;
+    top: 430px;
+    left: 150px;
+    z-index: 1;
+    width: 60px;
+    height: 40px;
+    background-color: rgb(1, 1, 1);
+    box-shadow: 1px 5px 0px 0px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgb(255, 255, 255);
 }
 
 #poster {
-    color: aquamarine;
-    top: 50px;
-    left: 100px;
-    width: 300px;
-    height: 400px;
+    position: absolute;
+    top: 200px;
+    left: 370px;
+    z-index: 2;
+    width: 150px;
+    height: 200px;
+    background-color: rgb(77, 39, 39);
+    box-shadow: 1px 5px 0px 0px rgba(0, 0, 0, 0.5);
 }
+
+#posterface {
+    position: absolute;
+    top: 200px;
+    left: 370px;
+    z-index: 4;
+    width: 150px;
+    height: 200px;
+    background-color: rgb(77, 39, 39);
+    box-shadow: 1px 5px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+#dresser {
+    position: absolute;
+    clip-path: polygon(86% 77%, 95% 95%, 5% 95%, 14% 77%);
+    z-index: 3;
+    background-color: rgb(77, 39, 39);
+    box-shadow: 1px 5px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
