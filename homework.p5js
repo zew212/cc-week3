@@ -1,0 +1,7 @@
+function setup() {
+  createCanvas(100%, 400); // Sets canvas size to 400x400 pixels
+}
+
+function draw() {
+  background(220); // Sets a light gray background color
+}
