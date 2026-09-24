@@ -1,17 +1,17 @@
 
 body, html {
     background-color: rgb(214, 204, 209);
-
 }
 
 #ref {
     position: absolute;
     top: 0px;
-    left: 0px;
+    left: 600px;
     width: 150px;
     z-index: 1;
     border: 6px solid black;
 }
+
 
 #letter {
     position: absolute;
